@@ -8,5 +8,6 @@ public class TestController {
     @GetMapping("/")
     public String test() {
         return "hot-fix";
+        return "github";
     }
 }
